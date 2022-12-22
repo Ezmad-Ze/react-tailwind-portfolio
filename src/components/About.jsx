@@ -1,10 +1,9 @@
 import { collection, getDocs, onSnapshot } from "firebase/firestore";
 import React, { useState, useEffect } from "react";
 import { db } from "../firebaseConfig";
-
+import cool_img from "../assets/Cool_Kids_Alone_Time.png"
 
 function About() {
-
   //load the database from firebase
   const cvCollectionRef = collection(db, "cv");
   const [data, setData] = useState([]);
@@ -54,10 +53,10 @@ function About() {
         })}
       </div>
       <div className="md:mt-3 md:self-end self-center mr-8">
-        <img src="../src/assets/Cool Kids Alone Time.png" />
+        <img src={cool_img} />
       </div>
     </div>
   );
-};
+}
 
 export default About;

@@ -11,7 +11,7 @@ module.exports = {
           custom_button: "#558FFF",
           custom_special: "#0B0917",
           work_list: "#B0ADAD",
-          cust: '#544944',
+          cust: "#544944",
         },
         custom_dark: {
           secondary: "#CE6A4F",
@@ -30,8 +30,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "dark-img": "url('src/assets/HeroPictDark.png')",
-        "light-img": "url('src/assets/HeroPictLight.png')",
+        "dark-img": "url('/src/assets/HeroPictDark.png')",
+        "light-img": "url('/src/assets/HeroPictLight.png')",
       },
     },
     fontFamily: { poppins: ["poppins", "serif"] },
