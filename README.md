@@ -24,8 +24,8 @@ This Project is done using react js and firebase to store data. It uses tailwind
 
 ### Links
 
-- Solution Link: []()
-- Live Link: []()
+- Solution Link: [Solution Link](https://github.com/Ezmad-Ze/react-tailwind-portfolio)
+- Live Link: [Live Link](https://ezmad.pages.dev/)
 
 ## My process
 
